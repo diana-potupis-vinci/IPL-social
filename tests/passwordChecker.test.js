@@ -1,4 +1,4 @@
-const passwordChecker = require("../passwordChecker");
+const passwordChecker = require("../main/passwordChecker");
 
 describe("passwordChecker", () => {
   test("Il doit contenir au moins 8 charactères", () => {

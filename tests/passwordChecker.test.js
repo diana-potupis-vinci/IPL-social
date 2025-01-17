@@ -26,4 +26,9 @@ describe("passwordChecker", () => {
     expect(result).toBe(true);
   });
 
+  test("b.	Il doit contenir au moins un charactère spécial.", () => {
+    const result = passwordChecker("P2r*5678");
+    expect(result).toBe(true);
+  });
+
 });

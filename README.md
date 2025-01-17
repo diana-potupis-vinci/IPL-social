@@ -2,6 +2,7 @@
 
 ## Author
 - **Nom, Prénom**: Potupis Diana
+- **Email**: diana.potupis@student.vinci.be
 
 ## GitHub URL
 - https://github.com/diana-potupis-vinci/IPL-social.git

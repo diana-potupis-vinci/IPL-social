@@ -1,12 +1,12 @@
 const passwordChecker = require("../main/passwordChecker");
 
 describe("passwordChecker", () => {
-  test("Il doit contenir au moins 8 charactères", () => {
+  test("a. Il doit contenir au moins 8 charactères", () => {
     const result = passwordChecker("1234567*");
     expect(result).toBe(true);
   });
 
-  test("Il doit contenir au moins 8 charactères", () => {
+  test("a. Il doit contenir au moins 8 charactères", () => {
     const result = passwordChecker("123478");
     expect(result).toBe(false);
   });

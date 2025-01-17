@@ -4,7 +4,7 @@
 - **Nom, Prénom**: Potupis Diana
 
 ## GitHub URL
-- [IPL social repository](https://github.com/diana-potupis-vinci/IPL-social.git)
+- https://github.com/diana-potupis-vinci/IPL-social.git
 
 ## Description
 Ce projet contient une fonction de validation de mots de passe (`passwordChecker.js`).  

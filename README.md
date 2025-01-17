@@ -1,7 +1,5 @@
 # IPL-social
 
-# IPL social
-
 ## Author
 - **Nom, Prénom**: Potupis Diana
 

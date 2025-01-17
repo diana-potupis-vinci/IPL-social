@@ -1,0 +1,12 @@
+{
+  "name": "ipl-social",
+  "version": "1.0.0",
+  "description": "Projet IPL social avec tests de mot de passe",
+  "main": "passwordChecker.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

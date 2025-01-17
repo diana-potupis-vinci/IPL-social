@@ -36,4 +36,9 @@ describe("passwordChecker", () => {
     expect(result).toBe(false);
   });
 
+  test("d. Il ne peut pas contenir la chaine de caractère « IPL » quel que soit sa casse (majuscule ou minuscule).", () => {
+    const result = passwordChecker("PIPL*554");
+    expect(result).toBe(false);
+  });
+
 });

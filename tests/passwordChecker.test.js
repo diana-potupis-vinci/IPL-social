@@ -46,4 +46,9 @@ describe("passwordChecker", () => {
     expect(result).toBe(false);
   });
 
+  test("c. Il doit contenir au moins un chiffre.", () => {
+    const result = passwordChecker("jhcd4v*s");
+    expect(result).toBe(true);
+  });
+
 });
